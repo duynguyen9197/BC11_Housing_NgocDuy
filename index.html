@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- BS4 -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- GOOGLE FONT -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- SLICK CSS -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <!-- FANCYBOX CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="Housing">
+        <a href="./index.html">
+          Hous
+          <span>ing</span>
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#About">About</a>
+          </li>
+          <li>
+            <a href="#Blog">Blog</a>
+          </li>
+          <li>
+            <a href="#Portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#OurAgent">Agents</a>
+          </li>
+          <li>
+            <a href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- header END -->
+    <!-- carousel -->
+    <section id="carousel">
+      <div class="container-fluid">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="d-block w-100"
+                src="./images/b1.jpg"
+                alt="First slide"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>DOLOR SIT HATANT MORBI</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="./images/b2.jpg"
+                alt="Second slide"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>DOLOR SIT HATANT MORBI</h5>
+                <p>Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="./images/b3.jpg"
+                alt="Third slide"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>DOLOR SIT HATANT MORBI</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- carousel End -->
+    <!-- About -->
+    <section id="About">
+      <div class="About_container title">
+        <h2 class="h2">About</h2>
+        <div class="About_list">
+          <div class="About_item">
+            <div class="About_icon">
+              <i class="fa fa-home"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+              iure!
+            </p>
+          </div>
+          <div class="About_item">
+            <div class="About_icon">
+              <i class="fa fa-home"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+              iure!
+            </p>
+          </div>
+          <div class="About_item">
+            <div class="About_icon">
+              <i class="fa fa-home"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+              iure!
+            </p>
+          </div>
+        </div>
+        <h3>About us</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam minima
+          porro voluptatem eos nesciunt reprehenderit, quo voluptatibus eum
+          obcaecati esse laboriosam explicabo quos saepe modi odit. Quam ullam
+          officia veritatis.
+        </p>
+      </div>
+    </section>
+    <!-- About End -->
+    <!-- Stats -->
+    <section id="Stats">
+      <div class="title">
+        <h2 class="h2">Stats</h2>
+        <div class="Stats_list">
+          <div class="Stats_item">
+            <p class="counter">3500</p>
+            <span>clients</span>
+          </div>
+          <div class="Stats_item">
+            <p class="counter">3500</p>
+            <span>clients</span>
+          </div>
+          <div class="Stats_item">
+            <p class="counter">3500</p>
+            <span>clients</span>
+          </div>
+          <div class="Stats_item">
+            <p class="counter">3500</p>
+            <span>clients</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Stats End -->
+    <!-- Blog -->
+    <section id="Blog">
+      <div class="Blog_container title">
+        <h2 class="h2">Blog</h2>
+        <div class="Blog_content">
+          <div class="Blog_item">
+            <img src="./images/g1.jpg" alt="" />
+            <div class="Blog_text">
+              <p>Lorem ipsum dolor sit amet.</p>
+              <span
+                >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Commodi ex qui, minus provident quis obcaecati voluptas
+                perferendis voluptatibus consequuntur neque?</span
+              >
+              <button class="btn_readmore">Read More</button>
+            </div>
+          </div>
+          <div class="Blog_item">
+            <img src="./images/g1.jpg" alt="" />
+            <div class="Blog_text">
+              <p>Lorem ipsum dolor sit amet.</p>
+              <span
+                >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Commodi ex qui, minus provident quis obcaecati voluptas
+                perferendis voluptatibus consequuntur neque?</span
+              >
+              <button class="btn_readmore">Read More</button>
+            </div>
+          </div>
+          <div class="Blog_item">
+            <img src="./images/g1.jpg" alt="" />
+            <div class="Blog_text">
+              <p>Lorem ipsum dolor sit amet.</p>
+              <span
+                >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Commodi ex qui, minus provident quis obcaecati voluptas
+                perferendis voluptatibus consequuntur neque?</span
+              >
+              <button class="btn_readmore">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Blog End -->
+    <!-- Get more -->
+    <section id="Getmore">
+      <div class="Getmore_container">
+        <div class="Getmore_video">
+          <a
+            data-fancybox="gallery"
+            data-width="400"
+            data-height="400"
+            href="https://player.vimeo.com/video/106770833"
+          >
+            <div class="play">
+              <i class="fa fa-play-circle"></i></div
+          ></a>
+        </div>
+        <div class="Getmore_text">
+          <h2 class="h2">Get More..</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus, distinctio in. Quas odio maiores veritatis dolor
+            quidem ratione repellat dolore?Necessitatibus, distinctio in. Quas
+            odio maiores veritatis dolor quidem ratione repellat dolore?
+          </p>
+          <button class="btn_readmore">Read more..</button>
+        </div>
+      </div>
+    </section>
+    <!-- Get more End -->
+    <!-- Portfolio -->
+    <section id="Portfolio">
+      <div class="Port_container title">
+        <h2 class="h2">Portfolio</h2>
+        <div class="Port_content">
+          <div class="Port_items">
+            <img src="/images/img1.jpg" alt="" />
+            <div class="Port_overlay">
+              <p>GALLERY</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="Port_items">
+            <img src="/images/img2.jpg" alt="" />
+            <div class="Port_overlay">
+              <p>GALLERY</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="Port_items">
+            <img src="/images/img3.jpg" alt="" />
+            <div class="Port_overlay">
+              <p>GALLERY</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="Port_items">
+            <img src="/images/img4.jpg" alt="" />
+            <div class="Port_overlay">
+              <p>GALLERY</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="Port_items">
+            <img src="/images/img5.jpg" alt="" />
+            <div class="Port_overlay">
+              <p>GALLERY</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="Port_items">
+            <img src="/images/img6.jpg" alt="" />
+            <div class="Port_overlay">
+              <p>GALLERY</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio End -->
+    <!-- Subscribe -->
+    <section id="Subscribe">
+      <div class="Sub_container title">
+        <h2 class="h2">Subscribe</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo,
+          officia?
+        </p>
+        <form action="">
+          <input type="email" placeholder="Email" name="" id="" />
+          <button class="btn_black" type="submit">Click</button>
+        </form>
+      </div>
+    </section>
+    <!-- Subscribe End -->
+    <!-- OurAgent -->
+    <section id="OurAgent">
+      <div class="Agent_container title">
+        <h2 class="h2">Our Agents</h2>
+        <div class="Agent_content">
+          <div class="Agent_item">
+            <img src="./images/t1.jpg" alt="" />
+            <div class="Agent_text">
+              <p>KAT WALLY</p>
+              <p>Lorem, ipsum.</p>
+              <div class="list_icon">
+                <ul>
+                  <li class="FB">
+                    <a href=""></a><i class="fab fa-facebook-f"></i>
+                  </li>
+                  <li class="TW">
+                    <a href=""></a><i class="fab fa-twitter"></i>
+                  </li>
+                  <li class="RSS"><a href=""></a><i class="fa fa-rss"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="Agent_item">
+            <img src="./images/t2.jpg" alt="" />
+            <div class="Agent_text">
+              <p>KAT WALLY</p>
+              <p>Lorem, ipsum.</p>
+              <div class="list_icon">
+                <ul>
+                  <li class="FB">
+                    <a href=""></a><i class="fab fa-facebook-f"></i>
+                  </li>
+                  <li class="TW">
+                    <a href=""></a><i class="fab fa-twitter"></i>
+                  </li>
+                  <li class="RSS"><a href=""></a><i class="fa fa-rss"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="Agent_item">
+            <img src="./images/t3.jpg" alt="" />
+            <div class="Agent_text">
+              <p>KAT WALLY</p>
+              <p>Lorem, ipsum.</p>
+              <div class="list_icon">
+                <ul>
+                  <li class="FB">
+                    <a href=""></a><i class="fab fa-facebook-f"></i>
+                  </li>
+                  <li class="TW">
+                    <a href=""></a><i class="fab fa-twitter"></i>
+                  </li>
+                  <li class="RSS"><a href=""></a><i class="fa fa-rss"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="Agent_item">
+            <img src="./images/t4.jpg" alt="" />
+            <div class="Agent_text">
+              <p>KAT WALLY</p>
+              <p>Lorem, ipsum.</p>
+              <div class="list_icon">
+                <ul>
+                  <li class="FB">
+                    <a href=""></a><i class="fab fa-facebook-f"></i>
+                  </li>
+                  <li class="TW">
+                    <a href=""></a><i class="fab fa-twitter"></i>
+                  </li>
+                  <li class="RSS"><a href=""></a><i class="fa fa-rss"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- OurAgent End -->
+    <!-- Map -->
+    <section id="Map">
+      <div class="Map_container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2629794984637!2d106.64571431411659!3d10.791159261874004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752eb4bbd69f67%3A0xe81441da2a418958!2zODMgUXXhuqNuZyBIaeG7gW4sIFBoxrDhu51uZyAxMSwgVMOibiBCw6xuaCwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1621070631027!5m2!1svi!2s"
+          width="100%"
+          height="400px"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </section>
+    <!-- Map end -->
+    <!-- Contact -->
+    <section id="Contact">
+      <div class="Contact title">
+        <h2 class="h2">Contact Us</h2>
+        <div class="form">
+          <form action="">
+            <input type="text" placeholder="NAME" />
+            <input type="text" placeholder="Last Name" />
+            <input type="email" placeholder="Email" />
+            <input type="number" placeholder="Phone" />
+          </form>
+
+          <form action="">
+            <textarea
+              placeholder="message"
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+            <button class="btn_black" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Contact End -->
+    <!-- footer -->
+    <footer>
+      <p>
+        © 2017 Housing. All Rights Reserved | Design by
+        <a href="https://w3layouts.com/">W3layouts</a>
+      </p>
+      <div class="list_icon">
+        <ul>
+          <li class="FB"><a href="#"></a><i class="fab fa-facebook-f"></i></li>
+          <li class="TW"><a href="#"></a><i class="fab fa-twitter"></i></li>
+          <li class="RSS"><a href="#"></a><i class="fa fa-rss"></i></li>
+          <li class="RSS"><a href="#"></a><i class="fa fa-rss"></i></li>
+        </ul>
+      </div>
+    </footer>
+    <!-- footer End -->
+    <!-- BACK TO TOP -->
+
+    <a href="#" class="cd-top text-replace js-cd-top">
+      <img src="/images/arrowup.png" alt="" />
+    </a>
+    <script src="./js/main.js"></script>
+    <script src="./js/util.js"></script>
+
+    <!-- SLICK JS -->
+
+    <!-- <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/slick/slick.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".carousel_slick").slick({
+          dots: true,
+          infinite: true,
+          speed: 500,
+          fade: true,
+          cssEase: "linear",
+          appendArrows: ".carousel_slick",
+
+          // appendArrows: $("p"),
+        });
+      });
+    </script>
+    <!-- COUNTING -->
+    <script src="./js/jquery.waypoints.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script src="./js/jquery.countup.js"></script>
+    <!-- <script src="jquery.countup.js"></script> -->
+    <script>
+      $(".counter").countUp();
+    </script>
+    <!-- FANCYBOX JS -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <!-- BS4 SCRipt -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
